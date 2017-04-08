@@ -1,7 +1,7 @@
 //module
-function User(){
-	this.id;
-	this.name;
+function User(id,name){
+	this.id = id;
+	this.name = name;
 	this.enter=function(){
 		console.log(this.name+"进入");
 	}
